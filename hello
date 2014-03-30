@@ -1,0 +1,6 @@
+public static void main(String[] args) {
+        // TODO code application logic here
+        GameLoader game = new GameLoader();
+        game.setup(new Megaman(), new Dimension(DimXP, DimYP), false);
+        game.start();
+}
